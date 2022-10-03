@@ -2,21 +2,24 @@ import React from "react";
 import style from "./wrapper.module.css";
 
 import { Routes, Route, Link } from "react-router-dom";
-import { Home } from "../pages/Home";
-import { Contact } from "../pages/Contact";
+import { Home } from "../../pages/Home";
+import { Contact } from "../../pages/Contact";
 
 export const Wrapper = () => {
 	return (
 		<div>
 			<div className={style.wrapper}>
 				<div className={style.wrap}>
-					<header className={style.header}>Привет</header>
+					<header className={style.header}>
+						<Link to="/">Home</Link>
+						<Link to="/contact">Contact</Link>
+					</header>
 					<main className={style.main}>
 						<section>
 							<div className={style.content}>
 								<Routes>
 									<Route path="/" element={<Home />} />
-									<Route path="Contact" element={<Contact />} />
+									<Route path="contact" element={<Contact />} />
 								</Routes>
 							</div>
 						</section>
