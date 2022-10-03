@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/projects-hub/static/css/main.f354e1f2.css",
+    "main.js": "/projects-hub/static/js/main.3d187884.js",
+    "static/media/pattern.svg": "/projects-hub/static/media/pattern.18fe9d6fcc4d243752bf.svg",
+    "index.html": "/projects-hub/index.html",
+    "main.f354e1f2.css.map": "/projects-hub/static/css/main.f354e1f2.css.map",
+    "main.3d187884.js.map": "/projects-hub/static/js/main.3d187884.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f354e1f2.css",
+    "static/js/main.3d187884.js"
+  ]
+}
