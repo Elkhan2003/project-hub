@@ -1,5 +1,5 @@
 # Link:
-https://elkhan2003.github.io/projects-hub/
+https://elkhan2003.github.io/project-hub/
 
 # Getting Started with Create React App
 
