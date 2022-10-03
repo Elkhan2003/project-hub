@@ -1,0 +1,16 @@
+.wrapper {
+  background: linear-gradient(to right, #ff01d9, #029ddf, #6702ff);
+}
+
+.wrap {
+  background: url(../img/pattern.svg);
+  background-attachment: fixed;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto;
+}
