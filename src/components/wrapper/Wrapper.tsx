@@ -5,6 +5,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import { Home } from "../../pages/Home";
 import { About } from "../../pages/About";
 import { Contact } from "../../pages/Contact";
+import { Sites } from "../../pages/Sites";
 
 export const Wrapper = () => {
 	return (
@@ -15,6 +16,7 @@ export const Wrapper = () => {
 						<Link to="/">Home</Link>
 						<Link to="/about">About</Link>
 						<Link to="/contact">Contact</Link>
+						<Link to="/sites">Sites</Link>
 					</header>
 					<main className={style.main}>
 						<section>
@@ -23,6 +25,7 @@ export const Wrapper = () => {
 									<Route path="/" element={<Home />} />
 									<Route path="/about" element={<About />} />
 									<Route path="/contact" element={<Contact />} />
+									<Route path="/sites" element={<Sites />} />
 								</Routes>
 							</div>
 						</section>
